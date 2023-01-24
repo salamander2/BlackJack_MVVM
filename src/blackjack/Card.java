@@ -44,9 +44,6 @@ public class Card{
 	static final int CLUBS = 2;
 	static final int DIAMONDS = 3;
 	
-	//for image size.
-	static final int CARDW = 71; //pixels
-	static final int CARDH = 96;
 	
 	//constructor
 	Card(int suit, int value) {

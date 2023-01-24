@@ -20,6 +20,10 @@ public class Deck implements Model {
 
 	private BufferedImage spriteSheet;
 	BufferedImage cardBack;
+	//Size of each card image
+	static final int CARDW = 71; //pixels
+	static final int CARDH = 96;
+		
 
 	@Override
 	public void initialize() {
@@ -87,10 +91,10 @@ public class Deck implements Model {
 		}
 
 		for (int i = 0; i < 52; i++) {
-			BufferedImage img = spriteSheet.getSubimage(i%13*Card.CARDW, i/13*Card.CARDH, Card.CARDW, Card.CARDH);
+			BufferedImage img = spriteSheet.getSubimage(i%13*CARDW, i/13*CARDH, CARDW, CARDH);
 			deck.get(i).image = img;
 		}
-		cardBack = spriteSheet.getSubimage(0, 4*Card.CARDH, Card.CARDW, Card.CARDH);
+		cardBack = spriteSheet.getSubimage(0, 4*CARDH, CARDW, CARDH);
 	}
 
 }

@@ -6,8 +6,9 @@ public class BlackJack {
 	
 	public static void main(String[] args) {
 		
+		Deck deck = new Deck();
 		View1 view = new View1();
-		
+		view.displayAllCards(deck.deck, deck.cardBack);
 	}
 
 }
