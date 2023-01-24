@@ -4,7 +4,8 @@
 ✏️ I don't understand the difference between MVVM and MVC model. The VM just takes the place of the Controller. 
 In spite of reading a number of websites, I don't see a difference in how it actually works.
 
-:one:  Shoud there be **interfaces** for Model, View, and ViewModel, or should these be **abstract classes** that are extended?
+:one:  Should there be **interfaces** for Model, View, and ViewModel, or should these be **abstract classes** that are extended?
+
 2️⃣
 
 ### Structure
